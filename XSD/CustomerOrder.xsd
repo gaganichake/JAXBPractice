@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en">
+			Add your comment here
+			Status - Success,Warning, Error. Description will be required in case of
+			warning or error.
+  </xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="CustomerOrder">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="OrderNumber" type="xsd:integer"
+					minOccurs="1" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+
+
+

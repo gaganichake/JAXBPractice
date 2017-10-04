@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XSD/CustomerOrder.xsd">
+  <OrderNumber>1</OrderNumber>
+  <OrderNumber>2</OrderNumber>
+  <OrderNumber>3</OrderNumber>
+</CustomerOrder>
